@@ -1,0 +1,25 @@
+{
+  "name": "dashboard-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alfredov/dashboard-ui.git",
+  "author": "Alfredo V. <alfredo.villagomez.m@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "playground": "docz dev",
+    "build": "docz build"
+  },
+  "dependencies": {
+    "emotion": "^9.2.5",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-emotion": "^9.2.5"
+  },
+  "devDependencies": {
+    "docz": "^0.5.5"
+  },
+  "gitpkg": {
+    "registry": "git@github.com:alfredov/pgr.git"
+  }
+}
